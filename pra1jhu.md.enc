@@ -1,0 +1,88 @@
+# **PRACTICA Nº 1#**
+## **SISTEMAS EMPRESARIALES**
+> #### **Carrera	Ingeniería de Sistemas**
+> #### **Materia	Emergente I**
+> #### **Apellidos y Nombres Condori Chávez Jhuditt Emma**
+> #### **C.I.	9071663 Lp**
+> #### **Lugar y Fecha.	16-08-19**
+
+#### 1.	Explique que son los sistemas empresariales
+
+>Los sistemas empresariales, juegan un papel importante dentro de las empresas, ya que estos permiten que tanto los empleados, como los clientes y proveedores de una determinada organización estén conectados a un mismo sistema donde la información es igual para cada una de las personas. Esto es, debido a que los sistemas empresariales son un conjunto integrado de sistemas de información que son herramientas que unifican los procesos que se llevan a cabo dentro de una empresa por medio de un software y hardware.
+#### 2.	Describa cuales son las características más importantes de una aplicación empresarial 
+> + Que sea flexible y escalable para que crezca según las necesidades de la empresa. Es decir, se trata de que el software sea capaz de adaptarse a las funciones y necesidades que vayan surgiendo en la organización.Que sea ágil y multidispositivo. Los usuarios deben poder acceder a los datos desde cualquier lugar de forma segura y fiable.
+>+ Que sea sencillo. Para no perder tiempo con programas informáticos complicados. Lo ideal es que las herramientas sean muy intuitivas y fáciles de usar. Es importante también contar con un buen soporte por si surge cualquier tipo de problema
+>+ Que sea medible. Cada acción y los resultados obtenidos deben quedar registrados para proceder con su análisis. Este punto es de vital importancia para el buen desarrollo de un negocio, sobre todo cuando se trata de emprendedores.
+
+#### 3.	Investigue y proponga cinco (5) instituciones que requerirían aplicaciones de misión crítica. Justifique su respuesta.
+> + **Correo electrónico**
+Un elemento vital en la comunicación corporativa, cuya caída parece convertir todo en un caos. En  el caso de las aplicaciones de nivel operativo puede ser aún peor, pues puede quedar detenida la actividad principal de la organización, con todas las consecuencias que esto implica para el negocio.
+> + **Ministerio de salud**
+El cual necesitaría una aplicación que tenga escalabilidad porque siempre va ir en forma de crecimiento los usuarios la natalidad por ejemplo, deberá ser flexible  para los cambios de actualización que habría, deberá tener seguridad no cualquier persona solo personal autorizado puede tener los datos e información de las personas que utilizan tal aplicación. 
+> + **Universidad pública de el alto**
+Necesitaría una aplicación de misión critica ya que el manejo de recursos económicos y  humanos debe ser transparente debe tener total flexibilidad y sobre todo seguridad no debe existir ninguna vulneración de sus datos además que debe ser preciso y eficiente.
+> + **Manaco**
+La zapatería manaco debería tener una aplicación de misión crítica ya que debería tener accesibilidad de ver los modelos y precios que ofrecen a sus usuarios  y poder venderlos ofrecerlos vía online por lo tanto debería tener flexibilidad a crecer y tener seguridad para q no puedan vulnerar sus datos además de eso ser escalable.
+> + **Helados panda**
+Debería acceder a una aplicación de misión crítica para poder promocionar sus helados y tener más acercamiento con las personas y poder vender sus productos de manera online publicando sus precios y sabores.
+#### 4.	Explique cuáles son las diferencias entre la escalabilidad horizontal y escalabilidad vertical.
+> La escalabilidad horizontal se refiere al incremento de componentes, la escalabilidad vertical se refiere a actualizaciones o modernización de componentes existentes.
+
+#### 5.	Que es un servidor web y que es un  servidor de aplicaciones
+> Explique los elementos Un servidor web Es un servidor que almacena los documentos que componen una página web (HTML, CSS, PHP…) y se la proporciona al usuario para que la visualice completa en su navegador de Internet (toma la petición de un cliente y devuelve algo).
+Un servidor de aplicaciones es un dispositivo de software que proporcionan servicios de aplicación a las computadoras cliente.
+	
+
+#### 6.	Con un gráfico explique cómo funciona el protocolo HTTP.
+![Alt text](https://user-images.githubusercontent.com/53720544/62845954-5810eb00-bc9a-11e9-8c5b-6b06e6f86f88.gif)
+ 
+#### 7.	Explique los elementos importantes de REQUEST en HTTP.
+- Método HTTP (HTTP method, la acción a realizar)
+- La página para acceder (URL).
+- Form parameters (como argumentos a un método).
+
+#### 8.	Explique los elementos importantes de RESPONSE  en HTTP.
+> - Código de estado (Status code): Indica si la operación fue realizada correctamente o no.Tipo de contenido (Content Type): Si el contenido es HTML, una imagen, un archivo PDF, etc.
+>- Contenido: El HTML, la imagen, etc. 
+
+
+#### 9.	Describa con un gráfico la arquitectura Java EE.
+>
+
+![jee-multitiered](jee-multitiered.gif)
+#### 10.	Explique cuáles son los contenedores, componentes y servicios de Java EE
+>Un contenedor es un entorno de ejecucion que provee al componente una serie de servicios.
+java EE define tipos de contenedores los cuales son:
+   * contenedor web
+   * contenedor de negocio (o de EJBs)
+ Un componente es una unidad de software que forma parte
+ de una aplicación
+ Java EE define los siguientes tipos de componentes:
+   * Componente cliente: Cliente AWT, Swing, Applet y
+     Navegador Web
+   * Componente web: Servlet, JSP y JSF
+   * Componente de negocio: EJB
+ Cada tipo cubre necesidades concretas y se basan en APIs
+     Específicas.
+ Son los servicios que deben ofrecer los contenedores Java EE.
+ Java EE define los siguientes servicios:
+   * De directorio: para la indexación y búsqueda de
+     Componentes y recursos
+   * De despliegue: para poder personalizar los componentes y
+     Recursos
+   * De transaccionalidad: para poder ejecutar distintas acciones
+   * En una misma unidad transaccional
+   * De seguridad: para poder autenticar y autorizar a los
+     Usuarios de la aplicación
+   * De acceso a datos: para facilitar el acceso a Bases de Datos
+   * De conectividad: para poder acceder fácilmente a distintos EIS
+   * De mensajería: para poder comunicarse con otros componentes, aplicaciones o EIS
+
+
+#### 11.	Investigue los métodos más utilizados de las HttpServletRequest y Http ServletResponse, y para cada uno de los métodos muestre  un ejemplo.  
+public abstract class HttpServlet extends GenericServlet: 
+ Es la clase de la cual se debe extender para crear un servlet HTTP.
+De la clase que extiende obtiene los métodos ya definidos además de los cuales define:
+
+* doGet(HttpServletRequest req, HttpServletResponse resp): Es el método llamado para procesar información que haya sido enviado con el método GET. Este método es llamado concurrentemente para cada cliente por lo que hay que estar atento por posibles variables compartidas que causen problemas.
+
